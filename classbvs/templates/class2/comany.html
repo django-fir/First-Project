@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+{% extends 'base1.html %}
+{% block body_block %}
+<h1>List Of All Companyees</h1>
+{% for i in company_list %}
+<h2><a href="#">{{i.name}}</a></h2>
+{% endfor %}
+{% endblock %}
